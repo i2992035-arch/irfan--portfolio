@@ -27,7 +27,7 @@ export default function Contact() {
           <a href="https://www.instagram.com/irf.anshaikh1" target="_blank" rel="noopener noreferrer" className="contact-card">
             <div className="contact-icon">
               {/* instagram svg removed for brevity in component; it's fine to keep an img or svg file instead */}
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" alt="Instagram" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsRJtTIbYgQdbnXBoT-ENX9KBYiA1qzN_Usw&s" alt="Instagram" />
             </div>
             <h3>Instagram</h3>
             <p>@irf.anshaikh1</p>
