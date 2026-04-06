@@ -21,7 +21,7 @@ export default function Footer() {
                 <a href="https://www.instagram.com/irf.anshaikh1" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" alt="Instagram" />
                 </a>
-                <a href="mailto:irfanshaikh@example.com" className="social-icon" aria-label="Email">
+                <a href="mailto:i2992035@gmail.com" className="social-icon" aria-label="Email">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Email" />
                 </a>
               </div>
@@ -52,7 +52,7 @@ export default function Footer() {
               <ul className="footer-links">
                 <li><a href="https://www.linkedin.com/in/irfan-shaikh-24a459379" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a href="https://www.instagram.com/irf.anshaikh1" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="mailto:irfanshaikh@example.com">Email Me</a></li>
+                <li><a href="mailto:i2992035@gmail.com">Email Me</a></li>
                 <li><a href="#contact">Get in Touch</a></li>
               </ul>
             </div>

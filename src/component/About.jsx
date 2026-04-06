@@ -31,7 +31,7 @@ export default function About() {
           <div className="about-cards">
             <div className="about-card">
               <div className="about-icon">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/code/code-original.svg" alt="Web Dev" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Web Dev" />
               </div>
               <h3>Web Development</h3>
               <p>

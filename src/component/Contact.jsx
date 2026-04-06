@@ -8,12 +8,12 @@ export default function Contact() {
           <p className="contact-text">Feel free to reach out for collaborations, opportunities, or just a friendly hello</p>
         </div>
         <div className="contact-grid">
-          <a href="mailto:irfanshaikh@example.com" className="contact-card">
+          <a href="mailto:i2992035@gmail.com" className="contact-card">
             <div className="contact-icon">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Email" />
             </div>
             <h3>Email</h3>
-            <p>irfanshaikh@example.com</p>
+            <p>i2992035@gmail.com</p>
           </a>
 
           <a href="https://www.linkedin.com/in/irfan-shaikh-24a459379" target="_blank" rel="noopener noreferrer" className="contact-card">

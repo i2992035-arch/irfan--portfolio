@@ -9,16 +9,7 @@ export default function Education() {
         </div>
         <div className="education-list">
           <div className="education-card">
-            <div
-              className="education-icon"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=200&h=200&fit=crop')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                fontSize: 0,
-              }}
-            ></div>
+            <div className="education-icon">🎓</div>
             <div className="education-info">
               <h3>Bachelor's in AI &amp; ML</h3>
               <h4>Kashi University, India</h4>
@@ -31,16 +22,7 @@ export default function Education() {
           </div>
 
           <div className="education-card">
-            <div
-              className="education-icon"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=200&h=200&fit=crop')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                fontSize: 0,
-              }}
-            ></div>
+            <div className="education-icon">🏫</div>
             <div className="education-info">
               <h3>Higher Secondary Certificate (HSC)</h3>
               <h4>Maharashtra College</h4>
@@ -53,16 +35,7 @@ export default function Education() {
           </div>
 
           <div className="education-card">
-            <div
-              className="education-icon"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=200&h=200&fit=crop')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                fontSize: 0,
-              }}
-            ></div>
+            <div className="education-icon">📚</div>
             <div className="education-info">
               <h3>Secondary School Certificate (SSC)</h3>
               <h4>Nehru Nagar MPS</h4>

@@ -1234,6 +1234,40 @@ nav {
     line-height: 1.8;
 }
 
+.certificate-pdf-thumb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(124, 58, 237, 0.08));
+    gap: 0.75rem;
+}
+
+.pdf-icon { font-size: 3.5rem; }
+
+.pdf-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+}
+
+.certificate-pdf-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.06), rgba(124, 58, 237, 0.06));
+    border-radius: 12px;
+    padding: 3rem;
+    gap: 1rem;
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    min-height: 200px;
+}
+
 @media (max-width: 768px) {
     .certificates-grid {
         grid-template-columns: 1fr;

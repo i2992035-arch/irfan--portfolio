@@ -5,27 +5,75 @@ const CERTIFICATES = [
   {
     id: 1,
     title: "AI FOR ALL",
-    issuer: "Issuing Organization",
-    date: "2026",
-    image: "/My_Certificate_indiaAI.jpg", // Replace with your certificate image path
-    description: "Brief description of what this certificate represents"
+    issuer: "IndiaAI",
+    date: "2025",
+    image: "/My_Certificate_IndiaAI.jpg",
+    pdf: null,
   },
   {
     id: 2,
-    title: "AI AWARE CERTIFICATE",
-    issuer: "Issuing Organization",
+    title: "AI Aware Certificate",
+    issuer: "AI Fluency Program",
     date: "2025",
-    image: "/Irfan Shaikh_AI_AWARE_CERTIFICATE (1).png", // Replace with your certificate image path
-    description: "Brief description of what this certificate represents"
+    image: "/Irfan Shaikh_AI_AWARE_CERTIFICATE (1).png",
+    pdf: null,
   },
   {
     id: 3,
-    title: "AI APPRECIATE CERTIFICATE",
-    issuer: "Issuing Organization",
+    title: "AI Appreciate Certificate",
+    issuer: "AI Fluency Program",
+    date: "2025'",
+    image: "/Irfan Shaikh_AI_APPRECIATE_CERTIFICATE.png",
+    pdf: null,
+  },
+  {
+    id: 4,
+    title: "AI Fluency for Educators",
+    issuer: "AI Fluency Program",
     date: "2025",
-    image: "/Irfan Shaikh_AI_APPRECIATE_CERTIFICATE.png", // Replace with your certificate image path
-    description: "Brief description of what this certificate represents"
-  }
+    image: "/AI Fluency for educators.jpg",
+    pdf: "/AI Fluency for educators.pdf",
+  },
+  {
+    id: 5,
+    title: "AI Fluency for Nonprofits",
+    issuer: "AI Fluency Program",
+    date: "2025",
+    image: "/AI Fluency for nonprofits.jpg",
+    pdf: "/AI Fluency for nonprofits.pdf",
+  },
+  {
+    id: 6,
+    title: "AI Fluency for Students",
+    issuer: "AI Fluency Program",
+    date: "2025",
+    image: "/AI Fluency for students.jpg",
+    pdf: "/AI Fluency for students.pdf",
+  },
+  {
+    id: 7,
+    title: "AI Fluency Framework & Foundations",
+    issuer: "AI Fluency Program",
+    date: "2025",
+    image: "/AI Fluency Framework & Foundations.jpg",
+    pdf: "/AI Fluency Framework & Foundations.pdf",
+  },
+  {
+    id: 8,
+    title: "Claude 101",
+    issuer: "Anthropic",
+    date: "2025",
+    image: "/Claude 101.jpg",
+    pdf: "/Claude 101.pdf",
+  },
+  {
+    id: 9,
+    title: "Teaching AI Fluency",
+    issuer: "AI Fluency Program",
+    date: "2025",
+    image: "/Teaching AI Fluency.jpg",
+    pdf: "/Teaching AI Fluency.pdf",
+  },
 ];
 
 export default function Certificates() {
@@ -105,8 +153,8 @@ export default function Certificates() {
             </button>
 
             <div className="certificate-modal-body">
-              <img 
-                src={activeCert.image} 
+              <img
+                src={activeCert.image}
                 alt={activeCert.title}
                 className="certificate-modal-image"
               />
@@ -114,7 +162,17 @@ export default function Certificates() {
                 <h3 id={`cert-modal-${activeCert.id}`}>{activeCert.title}</h3>
                 <p className="modal-issuer">{activeCert.issuer}</p>
                 <p className="modal-date">{activeCert.date}</p>
-                <p className="modal-description">{activeCert.description}</p>
+                {activeCert.pdf && (
+                  <a
+                    href={activeCert.pdf}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                    style={{ marginTop: "1.25rem", display: "inline-block" }}
+                  >
+                    📄 View Full PDF
+                  </a>
+                )}
               </div>
             </div>
           </div>
